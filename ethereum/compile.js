@@ -17,7 +17,3 @@ for (let contract in output) {
     output[contract]
   );
 }
-
-// test
-require("dotenv").config();
-console.log(process.env.WALLET_SECRET_PHRASE);
